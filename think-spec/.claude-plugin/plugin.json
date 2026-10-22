@@ -1,0 +1,27 @@
+{
+    "name":  "think-spec",
+    "version":  "0.1.0",
+    "description":  "Spec-Driven Development workflow for Claude Code: init, constitution, specify, clarify, plan, tasks, implement, validate, maintain, finish. Works in any project language.",
+    "author":  {
+                   "name":  "Johnny Alvarado",
+                   "url":  "https://github.com/johnnalvx"
+               },
+    "keywords":  [
+                     "spec-driven-development",
+                     "sdd",
+                     "specifications",
+                     "ears",
+                     "workflow"
+                 ],
+    "userConfig":  {
+                       "validate_on_edit":  {
+                                                "type":  "boolean",
+                                                "title":  "Validate artifacts on edit",
+                                                "description":  "After Claude writes AGENTS.md, docs/constitution.md or a file under specs/, run validate.mjs and warn Claude about that file\u0027s errors.",
+                                                "default":  false
+                                            }
+                   },
+    "homepage":  "https://github.com/johnnalvx/ThinkSpec",
+    "repository":  "https://github.com/johnnalvx/ThinkSpec",
+    "license":  "MIT"
+}

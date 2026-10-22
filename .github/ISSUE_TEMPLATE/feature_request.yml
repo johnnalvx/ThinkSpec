@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest an improvement to a stage, agent or artifact format
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do that think-spec makes hard?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+  - type: input
+    id: stage
+    attributes:
+      label: Stage or agent it touches
+      placeholder: "plan, validate, security-auditor..."

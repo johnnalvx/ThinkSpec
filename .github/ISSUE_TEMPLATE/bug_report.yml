@@ -1,0 +1,34 @@
+name: Bug report
+description: Something in think-spec did not work as documented
+labels: ["bug"]
+body:
+  - type: input
+    id: stage
+    attributes:
+      label: Stage or command
+      placeholder: "/think-spec:specify"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Paste the relevant output or error. Remove anything private.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: OS, Claude Code version, Node version, plugin version
+      placeholder: "Windows 11, Claude Code x.y.z, Node 20, think-spec 0.1.0"

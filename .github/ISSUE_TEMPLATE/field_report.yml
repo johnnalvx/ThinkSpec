@@ -1,0 +1,31 @@
+name: Field report (I tried it)
+description: Tell us how a real run went, good or bad. v0.1.0 needs testers.
+labels: ["field-report"]
+body:
+  - type: textarea
+    id: project
+    attributes:
+      label: What did you try to build?
+      description: Rough size and language of the project, new or existing code.
+    validations:
+      required: true
+  - type: input
+    id: reached
+    attributes:
+      label: How far did you get?
+      placeholder: "specify, plan and tasks worked; implement stopped at phase 2"
+    validations:
+      required: true
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked well
+  - type: textarea
+    id: friction
+    attributes:
+      label: Where it was confusing, slow or wrong
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "OS, Claude Code version, Node version"

@@ -1,0 +1,19 @@
+{
+  "name": "thinkspec",
+  "description": "think-spec: Spec-Driven Development workflow for Claude Code.",
+  "owner": {
+    "name": "Johnny Alvarado",
+    "url": "https://github.com/johnnalvx"
+  },
+  "plugins": [
+    {
+      "name": "think-spec",
+      "source": "./think-spec",
+      "description": "Spec-Driven Development workflow for Claude Code: init, constitution, specify, clarify, plan, tasks, implement, validate, maintain, finish. Works in any project language.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "homepage": "https://github.com/johnnalvx/ThinkSpec",
+      "keywords": ["claude-code", "spec-driven-development", "sdd", "spec-kit", "specifications", "ears", "workflow", "tdd", "subagents"]
+    }
+  ]
+}
